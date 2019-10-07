@@ -1,0 +1,40 @@
+/*
+ * Filename: README
+ * Author:   Pedro Suchite
+ * Date:     October 6th, 2019
+ */
+
+Description
+-----------
+  This program is a console based text version of Blackjack. At its current
+state the program can only account for one player versus the dealer. The
+program consists of continual prompts to the user to drive the game. There
+are several dialogs in between that delineate the current state of the game.
+
+How to run
+----------
+  To run the game one simply has to be in the correct directory labeled
+  'Blackjack' and insure their python is up to date.
+  From here all that is needed is to type:
+
+    python main.py
+
+Testing
+-------
+  I tested the game by simply typing in several scenarios into
+the terminal and checking to see if they returned the expected
+result for the scenario ( i.e. if the player was supposed to win with
+the current hand did the game return that? )
+
+Design Choices
+--------------
+  I implemented the use of a normal array, and a stack for keeping
+track of the player and the dealers current hand.
+
+Choice of Tooling
+-----------------
+  For the program I utilized Python as I was not too concerned with
+the program needing to be quick to run. In addition, python facilitated
+the writing of the program as it allowed for easier handling of data
+structures. I also used python 'random' library for generating a pseudorandom
+deck needed to start the game. Also the use of git for version management. r
